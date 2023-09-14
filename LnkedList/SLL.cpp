@@ -183,6 +183,7 @@ public:
             {
                 pre->next = temp->next;
             }
+            delete temp;
         }
     }
 

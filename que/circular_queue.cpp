@@ -17,8 +17,7 @@ que init()
 }
 
 int isFull(que Q){
-    // return (Q.front == (Q.rear + 1)%MAX);
-    return 0;
+    return (Q.front == (Q.rear + 1)%MAX);
 }
 
 int isEmpty(que Q){
